@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "omCedVN/8II+D1A1lFYw8wJnfBeq9G87fSn1NqeVFuGyoKc9+janIkWSgnAIU6RYuvwpxQFVxSxisS/d3/Hnlg==",
+  "dgSpecHash": "c1UAv5ma2TPp6xeJtnGzy4vNR8r38XtL0YzcwetwwkHqO9VcxntMJ8VFAzbUnK5jjKL1Cv9TGq/LtoitKJ80kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gediminas\\Desktop\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj",
+  "projectFilePath": "C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gediminas\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\Gediminas\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

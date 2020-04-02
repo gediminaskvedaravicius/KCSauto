@@ -7,46 +7,42 @@ using System.Text;
 
 namespace AutomatinioTestavimoPaskaitos.Tests
 {
-    public class InputFieldTests
+    public class InputFieldTests : BaseTest
     {
+        private IWebElement inputTextField => driver.FindElement(By.Id("user-message"));
+        private IWebElement showMessageButton => driver.FindElement(By.CssSelector("#get-input button"));
+        private IWebElement displayedText => driver.FindElement(By.Id("display"));
+        private IWebElement inputNumberOne => driver.FindElement(By.Id("sum1"));
+        private IWebElement inputNumberTwo => driver.FindElement(By.Id("sum2"));
+        private IWebElement getTotalButton => driver.FindElement(By.CssSelector("#gettotal button"));
+        private IWebElement displayedValue =>  driver.FindElement(By.Id("displayvalue"));
+
         [SetUp]
         public void BeforeTest ()
-        {
-
+        {   
+            driver.Url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
         }
 
 
         [Test]
         public void ShowMessage()
         {
-            //SetUp arba tai galima vadinti PreCondition
-            IWebDriver driver = new ChromeDriver();
-            driver.Url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
-            driver.Manage().Window.Maximize();
+            var irasomasTekstas = "tekstas";
+            
+            inputTextField.SendKeys(irasomasTekstas);
+            showMessageButton.Click();
 
-            //Testas prasideda nuo sitos eilutes
-            driver.FindElement(By.Id("user-message")).SendKeys("tekstas");
-            driver.FindElement(By.CssSelector("#get-input button")).Click();
-
-            Assert.AreEqual("tekstas", driver.FindElement(By.Id("display")).Text);
-
+            Assert.AreEqual(irasomasTekstas, displayedText.Text);
         }
 
         [Test]
         public void CountSum ()
         {
-            //Precondition
-            IWebDriver driver = new ChromeDriver();
-            driver.Url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
-            driver.Manage().Window.Maximize();
+            inputNumberOne.SendKeys("5");
+            inputNumberTwo.SendKeys("2");
+            getTotalButton.Click();
 
-            //Testas
-            driver.FindElement(By.Id("sum1")).SendKeys("5");
-            driver.FindElement(By.Id("sum2")).SendKeys("2");
-            driver.FindElement(By.CssSelector("#gettotal button")).Click();
-
-            Assert.AreEqual("7", driver.FindElement(By.Id("displayvalue")).Text);
+            Assert.AreEqual("7", displayedValue.Text);
         }
-
     }
 }

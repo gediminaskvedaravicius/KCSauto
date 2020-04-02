@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gediminas\\Desktop\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj": {}
+    "C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gediminas\\Desktop\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj": {
+    "C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gediminas\\Desktop\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj",
+        "projectUniqueName": "C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj",
         "projectName": "AutomatinioTestavimoPaskaitos",
-        "projectPath": "C:\\Users\\Gediminas\\Desktop\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj",
+        "projectPath": "C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos.csproj",
         "packagesPath": "C:\\Users\\Gediminas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gediminas\\Desktop\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\obj\\",
+        "outputPath": "C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gediminas\\AppData\\Roaming\\NuGet\\NuGet.Config",
