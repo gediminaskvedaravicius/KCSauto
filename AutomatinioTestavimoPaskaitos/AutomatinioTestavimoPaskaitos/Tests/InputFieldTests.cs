@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using AutomatinioTestavimoPaskaitos.Pages;
+using NUnit.Framework;
+using AutomatinioTestavimoPaskaitos.Asserts;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
@@ -9,18 +11,17 @@ namespace AutomatinioTestavimoPaskaitos.Tests
 {
     public class InputFieldTests : BaseTest
     {
-        private IWebElement inputTextField => driver.FindElement(By.Id("user-message"));
-        private IWebElement showMessageButton => driver.FindElement(By.CssSelector("#get-input button"));
-        private IWebElement displayedText => driver.FindElement(By.Id("display"));
-        private IWebElement inputNumberOne => driver.FindElement(By.Id("sum1"));
-        private IWebElement inputNumberTwo => driver.FindElement(By.Id("sum2"));
-        private IWebElement getTotalButton => driver.FindElement(By.CssSelector("#gettotal button"));
-        private IWebElement displayedValue =>  driver.FindElement(By.Id("displayvalue"));
+        private InputFieldPage inputFieldPage;
+        private InputFieldPageAsserts inputFieldPageAsserts;
 
         [SetUp]
         public void BeforeTest ()
         {   
             driver.Url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
+
+            inputFieldPage = new InputFieldPage(driver);
+
+            inputFieldPageAsserts = new InputFieldPageAsserts(driver);
         }
 
 
@@ -28,21 +29,46 @@ namespace AutomatinioTestavimoPaskaitos.Tests
         public void ShowMessage()
         {
             var irasomasTekstas = "tekstas";
-            
-            inputTextField.SendKeys(irasomasTekstas);
-            showMessageButton.Click();
+            var irasomasTekstas2 = "tekstas2";
 
-            Assert.AreEqual(irasomasTekstas, displayedText.Text);
+            inputFieldPage
+                .EnterMessage(irasomasTekstas)
+                .ClickShowMessage();
+            inputFieldPageAsserts.AssertMessageIs(irasomasTekstas);
+            inputFieldPage.ClearMessage();
+
+            inputFieldPage
+                .EnterMessage(irasomasTekstas2)
+                .ClickShowMessage();
+            inputFieldPageAsserts.AssertMessageIs(irasomasTekstas2);
         }
 
         [Test]
         public void CountSum ()
         {
-            inputNumberOne.SendKeys("5");
-            inputNumberTwo.SendKeys("2");
-            getTotalButton.Click();
+            var firstNumber = "2";
+            var secondNumber = "5";
+            var sum = "7";
 
-            Assert.AreEqual("7", displayedValue.Text);
+            //inputNumberOne.SendKeys("5");
+            //inputNumberTwo.SendKeys("2");
+            //getTotalButton.Click();
+            //Assert.AreEqual("7", displayedValue.Text);
+
+            inputFieldPage
+                .EnterFirstNumber(firstNumber)
+                .EnterSecondNumber(secondNumber)
+                .ClickCalculateSum();
+            inputFieldPageAsserts.AssertSum(sum);
+        }
+
+        [Test]
+        public void CountSum2()
+        {
+            inputFieldPage
+                .EnterFirstAndSecondNumber("2", "5")
+                .ClickCalculateSum();
+            inputFieldPageAsserts.AssertSum("7");
         }
     }
 }
