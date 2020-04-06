@@ -65,7 +65,8 @@ namespace AutomatinioTestavimoPaskaitos.Tests
         [TearDown]
         public void AfterTest ()
         {
-            driver.Quit();
+
+
         }
     }
 }

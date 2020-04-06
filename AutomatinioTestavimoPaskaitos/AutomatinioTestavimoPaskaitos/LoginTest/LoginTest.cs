@@ -23,7 +23,7 @@ namespace AutomatinioTestavimoPaskaitos.LoginTest
             loginPage.EnterUsername("opensourcecms");
             loginPage.EnterPassword("opensourcecms");
             loginPage.ClickLoginButton();
-
+            MakeScreenshotOnTestFailure();
             homePage.AssertLogoutButtonIsVisible();
         }
 

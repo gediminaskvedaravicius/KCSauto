@@ -46,10 +46,6 @@ namespace AutomatinioTestavimoPaskaitos.LoginTest.Pages
             EnterPassword(user.Password);
             ClickLoginButton();
         }
-        public void Logout()
-        {
-            homePage.ClickLogout();
-            loginPage.AssertLoginButtonIsVisible();
-        }
+
     }
 }
