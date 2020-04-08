@@ -1,0 +1,86 @@
+{
+  "uuid": "7dbbf9a3-0750-437d-af85-7724559ba6d0-tr-0-1042",
+  "historyId": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "fullName": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-B9P52KS"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestLogin"
+    },
+    {
+      "name": "package",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    }
+  ],
+  "links": [],
+  "name": "TestLogin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#txtUsername1\"}\n  (Session info: chrome=80.0.3987.149)\r\nTearDown : OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[target='_parent']\"}\n  (Session info: chrome=80.0.3987.149)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.get_usernameElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 15\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.<>c__DisplayClass7_0.<EnterUsername2>b__0() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 25\r\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.EnterUsername2(String username) in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 22\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 17\r\n--TearDown\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.get_logoutButtonElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 12\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.ClickLogout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 17\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.Logout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 27"
+  },
+  "stage": "finished",
+  "description": "\nLogout TearDown method failed\n",
+  "steps": [
+    {
+      "name": "TestLogin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#txtUsername1\"}\n  (Session info: chrome=80.0.3987.149)\r\nTearDown : OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[target='_parent']\"}\n  (Session info: chrome=80.0.3987.149)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.get_usernameElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 15\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.<>c__DisplayClass7_0.<EnterUsername2>b__0() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 25\r\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.EnterUsername2(String username) in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 22\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 17\r\n--TearDown\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.get_logoutButtonElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 12\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.ClickLogout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 17\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.Logout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 27"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter user name opensourcecms",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#txtUsername1\"}\n  (Session info: chrome=80.0.3987.149)",
+            "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.get_usernameElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 15\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.LoginPage.<>c__DisplayClass7_0.<EnterUsername2>b__0() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\LoginPage.cs:line 25\r\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586369182713,
+          "stop": 1586369187808
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9602b5db64f5400d86097e84b01d97eb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1586369176985,
+      "stop": 1586369193363
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1586369176985,
+  "stop": 1586369193375
+}

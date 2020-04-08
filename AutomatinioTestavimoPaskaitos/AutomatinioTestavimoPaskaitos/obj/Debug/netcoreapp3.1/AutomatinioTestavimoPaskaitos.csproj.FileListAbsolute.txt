@@ -187,10 +187,13 @@ C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTest
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.csprojAssemblyReference.cache
-C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.csproj.CoreCompileInputs.cache
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.AssemblyInfoInputs.cache
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.AssemblyInfo.cs
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.csproj.CopyComplete
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.dll
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.pdb
 C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.genruntimeconfig.cache
+C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\bin\Debug\netcoreapp3.1\Allure.Commons.dll
+C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\bin\Debug\netcoreapp3.1\MimeTypesMap.dll
+C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\bin\Debug\netcoreapp3.1\NUnit.Allure.dll
+C:\Users\Gediminas\Desktop\KCSauto\AutomatinioTestavimoPaskaitos\AutomatinioTestavimoPaskaitos\obj\Debug\netcoreapp3.1\AutomatinioTestavimoPaskaitos.csproj.CoreCompileInputs.cache

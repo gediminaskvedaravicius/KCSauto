@@ -1,4 +1,6 @@
-﻿using AutomatinioTestavimoPaskaitos.LoginTest.Pages;
+﻿using Allure.Commons;
+using AutomatinioTestavimoPaskaitos.LoginTest.Pages;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
@@ -11,6 +13,7 @@ using System.Text;
 
 namespace AutomatinioTestavimoPaskaitos.LoginTest
 {
+    [AllureNUnit]
     public class BaseTest
     {
         protected IWebDriver Driver;
@@ -40,7 +43,20 @@ namespace AutomatinioTestavimoPaskaitos.LoginTest
                 DoScreenshot();
             }
         }
-        
+        protected void MakeScreenshotOnTestFailure2()
+        {
+            if (TestContext.CurrentContext.Result.Outcome.Status != TestStatus.Passed)
+            {
+                AllureLifecycle.Instance.WrapInStep (() =>
+                {
+                    var screenshot = DoScreenshot2();
+                    AllureLifecycle.Instance.AddAttachment("Look at me!!", "img/png", screenshot, "png");
+                }, 
+                "Screen on test failure");
+
+            }
+        }
+
         protected void DoScreenshot()
         {
             Screenshot screenshot = Driver.TakeScreenshot();
@@ -58,6 +74,23 @@ namespace AutomatinioTestavimoPaskaitos.LoginTest
             TestContext.AddTestAttachment(screenshotFile, "My Screenshot");
         }
 
+        protected byte[] DoScreenshot2()
+        {
+            Screenshot screenshot = Driver.TakeScreenshot();
+            //folder sukurimas
+            string screenshotPath = $"{TestContext.CurrentContext.WorkDirectory}/Screenshots";
+            Directory.CreateDirectory(screenshotPath);
+
+            //string screenshotFile = Path.Combine($"{TestContext.CurrentContext.WorkDirectory}/Screenshots", 
+            string screenshotFile = Path.Combine(screenshotPath,
+                $"{TestContext.CurrentContext.Test.Name}.png");
+
+            screenshot.SaveAsFile(screenshotFile, ScreenshotImageFormat.Png);
+            Console.WriteLine("screenshot: file://" + screenshotFile);
+
+            TestContext.AddTestAttachment(screenshotFile, "My Screenshot");
+            return screenshot.AsByteArray;
+        }
         [TearDown]
         public void QuitDriver()
         {

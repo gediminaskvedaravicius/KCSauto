@@ -1,0 +1,79 @@
+{
+  "uuid": "16f474a8-0197-452a-b1d0-004affa48812-tr-0-1042",
+  "historyId": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "fullName": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-B9P52KS"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestLogin"
+    },
+    {
+      "name": "package",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    }
+  ],
+  "links": [],
+  "name": "TestLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter user name opensourcecms",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586368199855,
+          "stop": 1586368200018
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4721f8016ef747ebbdae87ec84451684-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1586368194502,
+      "stop": 1586368202925
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1586368194501,
+  "stop": 1586368202931
+}

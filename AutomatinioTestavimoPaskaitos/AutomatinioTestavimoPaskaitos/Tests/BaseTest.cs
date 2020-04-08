@@ -17,6 +17,7 @@ namespace AutomatinioTestavimoPaskaitos.Tests
             driver = new ChromeDriver();
             driver.Url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
             driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
         }
 
         [TearDown]

@@ -1,0 +1,114 @@
+{
+  "uuid": "a1fa338f-4d8a-46e1-a50c-15913b1673b2-tr-0-1042",
+  "historyId": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "fullName": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-B9P52KS"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestLogin"
+    },
+    {
+      "name": "package",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    }
+  ],
+  "links": [],
+  "name": "TestLogin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[target='_parent']\"}\n  (Session info: chrome=80.0.3987.149)\r\nTearDown : OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[target='_parent']\"}\n  (Session info: chrome=80.0.3987.149)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.get_logoutButtonElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 12\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.AssertLogoutButtonIsVisible() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 22\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 20\r\n--TearDown\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.get_logoutButtonElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 12\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.ClickLogout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 17\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.Logout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 26"
+  },
+  "stage": "finished",
+  "description": "\nLogout TearDown method failed\n",
+  "steps": [
+    {
+      "name": "TestLogin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[target='_parent']\"}\n  (Session info: chrome=80.0.3987.149)\r\nTearDown : OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[target='_parent']\"}\n  (Session info: chrome=80.0.3987.149)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.get_logoutButtonElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 12\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.AssertLogoutButtonIsVisible() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 22\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 20\r\n--TearDown\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByCssSelector(String cssSelector)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass23_0.<CssSelector>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.get_logoutButtonElement() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 12\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.Pages.HomePage.ClickLogout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\Pages\\HomePage.cs:line 17\r\n   at AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.Logout() in C:\\Users\\Gediminas\\Desktop\\KCSauto\\AutomatinioTestavimoPaskaitos\\AutomatinioTestavimoPaskaitos\\LoginTest\\LoginTest2.cs:line 26"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter user name opensourcecms",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586368815945,
+          "stop": 1586368816136
+        },
+        {
+          "name": "Enter password :******",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586368816136,
+          "stop": 1586368816273
+        },
+        {
+          "name": "User clicked login button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586368816273,
+          "stop": 1586368816941
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "397e4fe4166c4f6dae8202991e441342-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1586368810422,
+      "stop": 1586368827830
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1586368810420,
+  "stop": 1586368827840
+}

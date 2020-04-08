@@ -1,0 +1,63 @@
+{
+  "uuid": "f1df19b5-adc0-4a91-a63a-2bc0824e087e-tr-0-1042",
+  "historyId": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "fullName": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-B9P52KS"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestLogin"
+    },
+    {
+      "name": "package",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    }
+  ],
+  "links": [],
+  "name": "TestLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "aad65a47a32f4f16bc5418c68d7ba02c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1586367860681,
+      "stop": 1586367869325
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1586367860680,
+  "stop": 1586367869333
+}

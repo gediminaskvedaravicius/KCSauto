@@ -1,0 +1,59 @@
+{
+  "uuid": "0bd25ee4-b176-4d9b-b415-70a47c1b0570-tc-0-1041",
+  "name": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "children": [
+    "3a849e72-2e45-40fe-b3c4-0db6e39d84f5-tr-0-1042"
+  ],
+  "befores": [
+    {
+      "name": "InitDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1586368477275,
+      "stop": 1586368477275
+    }
+  ],
+  "afters": [
+    {
+      "name": "QuitDriver",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1586368477276,
+      "stop": 1586368477276
+    },
+    {
+      "name": "Logout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1586368477276,
+      "stop": 1586368477276
+    }
+  ],
+  "links": [],
+  "start": 1586368469466,
+  "stop": 1586368477319
+}

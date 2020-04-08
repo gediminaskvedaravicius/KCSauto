@@ -1,0 +1,109 @@
+{
+  "uuid": "3a849e72-2e45-40fe-b3c4-0db6e39d84f5-tr-0-1042",
+  "historyId": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "fullName": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2.TestLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-B9P52KS"
+    },
+    {
+      "name": "testClass",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestLogin"
+    },
+    {
+      "name": "package",
+      "value": "AutomatinioTestavimoPaskaitos.LoginTest.LoginTest2"
+    }
+  ],
+  "links": [],
+  "name": "TestLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter user name opensourcecms",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586368474012,
+          "stop": 1586368474168
+        },
+        {
+          "name": "Enter password :******",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586368474170,
+          "stop": 1586368474295
+        },
+        {
+          "name": "User clicked login button",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1586368474295,
+          "stop": 1586368476262
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0c059ae1451949ca8355e30e64113758-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1586368469470,
+      "stop": 1586368477280
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1586368469469,
+  "stop": 1586368477292
+}
